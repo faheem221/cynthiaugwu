@@ -1,0 +1,584 @@
+*{
+    font-family: "General Sans Medium";
+    color:white;
+    margin: 0;
+     
+}
+body{
+    background-color: black;
+}
+
+#main{
+    width: 100%;
+}
+header{
+    background-color: black;
+    width: 100%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page_container{
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 40px;
+}
+header .page_container{
+    background-color: black;
+    position: fixed;
+    top:0px;
+    z-index:999;
+}
+.page_container a{
+    text-decoration: none;
+    font-size: 1.19vw;
+}
+.page_container p{
+    font-size: 1vw;
+}
+ 
+.nav_options{
+    position: absolute;
+    right:45px;
+    gap:50px;
+    overflow-y: hidden;
+    display: none;
+
+}
+ 
+.hero{
+    width:100%;
+    margin-top: 70px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   margin-top: 160px;
+}
+
+.hero .page_container{
+    display: block;
+    width: max-content;
+  
+    align-self: flex-start;
+    
+}
+
+.hero .page_container p{
+    line-height: .85;
+    text-transform: uppercase;
+    font-size:10.5vw;
+    font-family: "General Sans Medium";
+    opacity: .6;
+}
+.menu_box{
+    overflow-y: hidden;
+}
+.menu{
+    background-color: black;
+    overflow-x:hidden;
+    font-size: 1.1vw;
+    position: relative;
+}
+
+.current_working{
+    position: relative;
+    overflow-x:hidden;
+}
+.ambassador{
+    position: relative;
+    overflow-x:hidden;
+}
+
+ .current_working::after {
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    left:0;
+    height:1px ;
+    content: "";
+    width: 100%;
+    transition: .5s;
+    animation:final .5s forwards;
+}
+
+ .ambassador:hover::after {
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    height:1px ;
+    content: "";
+    width: 100%;
+    animation: ltr .5s forwards;
+     
+}
+
+.ambassador::after {
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    left:0;
+    height:1px ;
+    content: "";
+    width: 100%;
+    transition: .5s;
+    animation:final .5s forwards;
+}
+
+ .current_working:hover::after {
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    height:1px ;
+    content: "";
+    width: 100%;
+    animation: ltr .5s forwards;
+    transition: .5s;
+}
+
+
+.self_Promo_link{
+    overflow-x: hidden;
+    position: relative;
+    width: max-content;
+}
+
+
+.self_Promo_link::after{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    height:1px ;
+    content: "";
+    width: 100%;
+    animation: final .5s forwards;
+    transition: .5s;
+    left:0;
+}
+.nav_options{
+    text-transform: uppercase;
+}
+
+.self_Promo_link:hover::after{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    height:1px ;
+    content: "";
+    width: 100%;
+    animation: ltr .5s forwards;
+    transition: .5s;
+}
+
+ 
+
+.menu::after{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    left:0;
+    height:1px ;
+    content: "";
+    width: 100%;
+    transition: .5s;
+    animation:final .5s forwards;
+
+}
+
+
+.dribble{
+    overflow-x: hidden;
+    position: relative;
+}
+.instagram{
+    overflow-x: hidden;
+    position: relative;
+}
+.twitter{overflow-x: hidden;
+    position: relative;}
+.linkedin{
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+.dribble::after{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    left:0;
+    height:1px ;
+    content: "";
+    width: 100%;
+    transition: .5s;
+    animation:final .5s forwards;
+}
+.instagram::after{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    left:0;
+    height:1px ;
+    content: "";
+    width: 100%;
+    transition: .5s;
+    animation:final .5s forwards;
+}
+.twitter::after{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    left:0;
+    height:1px ;
+    content: "";
+    width: 100%;
+    transition: .5s;
+    animation:final .5s forwards;
+}
+.linkedin::after{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    left:0;
+    height:1px ;
+    content: "";
+    width: 100%;
+    transition: .5s;
+    animation:final .5s forwards;
+}
+
+ 
+.dribble:hover::after{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    left:0;
+    height:1px ;
+    content: "";
+    width: 100%;
+    transition: .5s;
+    animation:ltr .5s forwards;
+}
+.instagram:hover::after{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    left:0;
+    height:1px ;
+    content: "";
+    width: 100%;
+    transition: .5s;
+    animation:ltr .5s forwards;
+}
+.twitter:hover::after{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    left:0;
+    height:1px ;
+    content: "";
+    width: 100%;
+    transition: .5s;
+    animation:ltr .5s forwards;
+}
+.linkedin:hover::after{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(255, 255, 255);
+    left:0;
+    height:1px ;
+    content: "";
+    width: 100%;
+    transition: .5s;
+    animation:ltr .5s forwards;
+}
+
+@keyframes final {
+    100%{
+        left:100%;
+
+    }
+}
+
+.menu:hover::after{
+    position: absolute;
+    bottom:0;
+
+    background-color: rgb(255, 255, 255);
+    height:1px ;
+    content: "";
+    width: 100%;
+    animation: ltr .5s forwards;
+    transition: .5s;
+}
+
+@keyframes ltr{
+    0%{
+        left:-100%;
+    }
+    100%{
+        left:0%;
+    }
+}
+
+.menu:hover, .current_working:hover, .ambassador:hover, .self_Promo_link:hover{
+    cursor: pointer;    
+}
+ 
+
+.hero_text{
+    height: fit-content;
+}
+.product{
+    overflow: hidden;
+}
+.designer{
+    margin-left:160px;
+    overflow: hidden;
+}
+.based{
+    overflow: hidden;
+
+}
+.hero .page_container .based_in{
+    margin-top: 20px;
+    font-size: 1vw;
+    opacity: 1;
+    text-align: right;
+}
+
+
+.hero_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  
+}
+
+.inner_hero_page_container{
+  
+    width: 93%;
+}
+
+.working__{
+    margin-top: 50px;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    line-height: 2;
+    margin-bottom: 67px;
+}
+
+.bottom_hero_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom:0;
+    width: 93%;
+    text-transform: uppercase;
+    font-size: 1vw;
+   
+}
+ 
+.scroll_down{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap:7px;
+    width: 250px;
+}
+.scroll_circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30px;
+    height:30px;
+    background-color: rgba(255, 255, 255, 0.384);
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+.main_work{
+    width: 100%;
+    margin-top: 100px;
+    text-align: left;
+    margin-top: 250px;
+}
+
+.work.page_container{
+    display: block;
+    width:88%;
+}
+
+.main_work{
+    position: relative;
+  
+}
+.work.page_container p{
+    font-size: 8vw;
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 50px;
+}
+.plug{
+    border-top:2px solid rgba(255, 255, 255, 0.36);
+
+  
+}
+:is(.plug, .ixp, .hudu){
+    border-bottom: 2px solid rgba(255, 255, 255, 0.36);
+    overflow-x: hidden;
+    overflow-y: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding-top:50px;
+}
+
+
+#img_one{
+    position:absolute;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+    display: none;
+    pointer-events: none;
+}
+#img_two{
+    position:absolute;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+    display:none;
+    pointer-events: none;
+}
+#img_three{
+    position:absolute;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+    display:none;
+    pointer-events: none;
+}
+
+:is(.plug p, .ixp p, .hudu  p){
+    width: 100%;
+}
+
+.about_me{
+    margin-top: 170px;
+}
+.about_title{
+    color:rgba(255, 255, 255, 0.558);
+}
+.about_me_content{
+    max-width: 480px;
+    font-size:1.1vw;
+    line-height: 1.6;
+}
+#talk_btn{
+    background-color: black;
+    color:rgba(255, 255, 255, 0.868);
+    border-radius: 20px;
+    border:1px solid white;
+    width:110px;
+    height:35px;
+    font-size:1vw;
+}
+
+#talk_btn:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+.push_to_talk_btn{
+    margin-top: 20px;
+}
+.about.page_container{
+    justify-content: end;
+    gap:100px;
+    width:88%;
+}
+
+.self_promotion{
+    margin-top: 150px;
+}
+.promotion.page_container{
+    display: block;
+    text-transform: uppercase;
+}
+.promotion.page_container .promo_title{
+    font-size: .85em;
+    color:rgba(255, 255, 255, 0.767);
+}
+
+.foot.page_container{
+    padding: 10px 40px;
+}
+.date_time p{
+    font-size: 1em;
+}
+.social_networks{
+    display: flex;
+    gap:40px;
+    text-transform: uppercase;    
+}
+.social_networks a{
+    font-size: 1em;
+}
+ 
+#mini_circle{
+    width:12px;
+    height:12px;
+    background-color: rgba(255, 255, 255, 0.686);
+    border:0;
+    border-radius: 99px;
+    position: absolute;
+    pointer-events: none;
+    z-index: 99999;
+    transition:all cubic-bezier(0.165, 0.84, 0.44, 1) .6s;
+    mix-blend-mode:difference;
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(29, 29, 29)
+}
+
+
+.preloader{
+    position: fixed;
+    height:100vh;
+    color:rgb(25, 25, 25);
+    font-size:5vw;
+    width:100%;
+    background-color: rgb(224, 224, 224);
+    z-index:9999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+/*animations*/
+
+
+
+
+.scroll_circle:hover>.fa-solid.fa-arrow-down{
+    animation: arrow .7s forwards;
+}
+@keyframes arrow{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    51%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
